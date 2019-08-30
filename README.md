@@ -1,9 +1,10 @@
 ﻿## 二手书交易平台微信小程序
 ##效果图如下：
 
-![image](https://github.com/IAmParasite/buaa-used/tree/master/miniprogram/screenshots/1.png)
-![image](https://github.com/IAmParasite/buaa-used/tree/master/miniprogram/screenshots/2.png)
-![image](https://github.com/IAmParasite/buaa-used/tree/master/miniprogram/screenshots/3.png)
+![image](https://github.com/IAmParasite/buaa-used/blob/master/miniprogram/sreenshots/1.png)
+![image](https://github.com/IAmParasite/buaa-used/blob/master/miniprogram/sreenshots/2.png)
+![image](https://github.com/IAmParasite/buaa-used/blob/master/miniprogram/screenshots/3.png)
+
 
 ## 参考文档
 
@@ -12,4 +13,4 @@
 - 实在尽力了...
 - 欢迎下载（后期还会完善Improvement）
 
->>>>>>> first project
+>>>>>>> second project
