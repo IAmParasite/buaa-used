@@ -1,0 +1,39 @@
+<!--pages/index/index.wxml-->
+<view wx:if="{{books.length == 0}}">你还没有历史记录哦</view>
+<view wx:if="{{books}}" class='container'>
+       <view class='title'>
+          <text>图书列表</text>
+       </view>
+       <view class='label'>
+          <text>书名</text>
+          <text>作者</text>
+          <text>价格</text>
+          <text>操作</text>
+       </view>
+      <block wx:for="{{books}}" wx:key="" wx:if="{{item.onshow == 0}}">
+            <view class='content'>
+              <text>{{item.books_name}}</text>
+              <text>{{item.books_author}}</text>
+              <text>{{item.books_Price}}</text>
+              <button class='del' data-id='{{item._id}}' bindtap='onDel'>删除</button>
+          </view>
+          <view>备注：{{item.remarks}}</view>
+          <view>联系方式：{{item.number}}</view>
+      </block>
+</view>
+<view wx:else="{{books}}" class='none'>
+      <text >暂时没有图书！</text>
+
+
+<view class="weui-loadmore" >
+  <view class="weui-loading"></view>
+  <view class="weui-loadmore__tips">正在加载</view>
+</view>
+<view class="weui-loadmore weui-loadmore_line" hidden="{{!searchLoadingComplete}}">
+  <view class="weui-loadmore__tips weui-loadmore__tips_in-line">已加载全部</view>
+</view>
+
+</view>
+
+
+

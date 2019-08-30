@@ -1,0 +1,46 @@
+
+<view class="contain">
+<swiper indicator-dots="true" 
+  previous-margin="50rpx" 
+  next-margin="50rpx" 
+  current='2'
+  >
+    <swiper-item>
+        <image src="/icons/1.jpg"></image>
+    </swiper-item>
+    <swiper-item>
+       <image src="/icons/2.jpg"></image>
+    </swiper-item>
+    
+    <swiper-item>
+      <image src="/icons/3.jpg"></image>
+    </swiper-item>
+</swiper>
+
+ <button class="content_2" url='.../pages/index/index'>
+  <view class="common">
+      资源
+  </view>
+ </button>
+ <button class="content_2" >
+  <view class="common">
+      联系我们
+  </view>
+ </button>
+ <button class="content_2" >
+  <view class="common">
+      关于我们
+  </view>
+ </button>
+
+
+<view class="doc-describe"></view>
+  <view class="doc-footer">
+      <view class="doc-footer__links">
+          <navigator url="" class="doc-footer__link">版权所有</navigator>
+          <navigator url="" class="doc-footer__link">侵权必究</navigator>
+      </view>
+      <view class="doc-footer__text">Copyright © 2019 IAmParasite</view>
+  </view>
+  
+</view>
