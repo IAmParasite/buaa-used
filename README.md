@@ -1,8 +1,8 @@
 ﻿## 二手书交易平台微信小程序
 ##效果图如下：
 
-![image](https://github.com/IAmParasite/buaa-used/blob/master/miniprogram/sreenshots/1.png)
-![image](https://github.com/IAmParasite/buaa-used/blob/master/miniprogram/sreenshots/2.png)
+![image](https://github.com/IAmParasite/buaa-used/blob/master/miniprogram/screenshots/1.png)
+![image](https://github.com/IAmParasite/buaa-used/blob/master/miniprogram/screenshots/2.png)
 ![image](https://github.com/IAmParasite/buaa-used/blob/master/miniprogram/screenshots/3.png)
 
 
